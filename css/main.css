@@ -17,14 +17,22 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    background-color: #000000;
+  }
 
 
 .tour__head{
     padding-top: 10px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    color:white;
 }
 
 .pan1{
-    height: 50rem;
+    height:90%;
 }
