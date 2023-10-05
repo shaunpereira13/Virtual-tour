@@ -27,18 +27,18 @@ const viewer = new PANOLENS.Viewer({
     autoRotateSpeed: 0.1,
     controlBar: true,
 
-  controlButtons: [],            // Buttons array in the control bar. Default to ['fullscreen', 'setting', 'video']
-  autoHideControlBar: false,        // Auto hide control bar
-  autoHideInfospot: true,            // Auto hide infospots
-  horizontalView: false,            // Allow only horizontal camera control
-  cameraFov: 60,                // Camera field of view in degree
-  reverseDragging: false,            // Reverse orbit control direction
-  enableReticle: false,            // Enable reticle for mouseless interaction
-  dwellTime: 1500,            // Dwell time for reticle selection in millisecond
-  autoReticleSelect: true,        // Auto select a clickable target after dwellTime
-  viewIndicator: false,            // Adds an angle view indicator in upper left corner
-  indicatorSize: 30,            // Size of View Indicator
-  output: 'console'  
+  //controlButtons: [],            // Buttons array in the control bar. Default to ['fullscreen', 'setting', 'video']
+ // autoHideControlBar: false,        // Auto hide control bar
+  //autoHideInfospot: true,            // Auto hide infospots
+  //horizontalView: false,            // Allow only horizontal camera control
+  //cameraFov: 60,                // Camera field of view in degree
+ // reverseDragging: false,            // Reverse orbit control direction
+ // enableReticle: false,            // Enable reticle for mouseless interaction
+ // dwellTime: 1500,            // Dwell time for reticle selection in millisecond
+ // autoReticleSelect: true,        // Auto select a clickable target after dwellTime
+  //viewIndicator: false,            // Adds an angle view indicator in upper left corner
+ // indicatorSize: 30,            // Size of View Indicator
+ // output: 'console'  
 });
 
  let info= new PANOLENS.Infospot(300, PANOLENS.DataImage.Info, true);
